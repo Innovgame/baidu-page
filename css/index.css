@@ -159,5 +159,100 @@ header .header-right .more-product{
     line-height: 40px;
     vertical-align: middle;
 }
+
+/* list-content样式 */
+#list .list-content .list-content-left{
+    /* background-color:red; */
+    float: left;
+    width: 575px;
+    height: 600px;
+}
+/* item1 */
+#list .list-content .list-content-left .item1{
+    padding:0 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+#list .list-content .list-content-left .item1 p{
+    margin: 0;
+    padding: 5px 0;
+    font-size: 11px;
+    color: #555555;
+}
+/* item2 */
+#list .list-content .list-content-left .item2{
+    padding: 10px;
+}
+#list .list-content .list-content-left .item2 img{
+    float: left;
+    margin-right: 10px;
+}
+#list .list-content .list-content-left .item2 .item2-right{
+    float: left;
+    width: 330px;
+}
+#list .list-content .list-content-left .item2 .item2-right h4{
+    font-size: 18px;
+}
+#list .list-content .list-content-left .item2 .item2-right p{
+    font-size: 11px;
+}
+/* item3 */
+#list .list-content .list-content-left .item3{
+    padding: 10px;
+}
+#list .list-content .list-content-left .item3 img{
+    float: left;
+    margin-right: 10px;
+}
+#list .list-content .list-content-left .item3 .item3-right{
+    float: left;
+    width: 330px;
+}
+#list .list-content .list-content-left .item3 .item3-right h4{
+    font-size: 18px;
+}
+#list .list-content .list-content-left .item3 .item3-right p{
+    font-size: 11px;
+}
+
+/* list-content-right */
+#list .list-content .list-content-right{
+    /* background-color: green; */
+    float: right;
+    width: 315px;
+    height: 600px;
+}
+#list .list-content .list-content-right .right-top{
+    width: 315px;
+    height: 60px;
+    /* background-color: red; */
+}
+#list .list-content .list-content-right .right-top h3{
+    display: inline-block;
+}
+#list .list-content .list-content-right .right-top a{
+    float: right;
+    line-height: 60px;
+    padding: 0 10px;
+}
+#list .list-content .list-content-right .right-top a img{
+    vertical-align: middle;
+}
+/* list-content-right right-bottom */
+#list .list-content .list-content-right .right-bottom ul{
+    list-style: none;
+}
+#list .list-content .list-content-right .right-bottom ul li{
+    float: left;
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    margin: 6px;
+    font-size: 14px;
+}
+#list .list-content .list-content-right .right-bottom ul li a{
+    text-decoration: none;
+    color: #666;
+}
 /******************* /list样式 **********************/
 
