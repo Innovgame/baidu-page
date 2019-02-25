@@ -1,0 +1,61 @@
+
+/******************* 通用样式样式 **********************/
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/******************* /通用样式样式 **********************/
+
+/******************* 头部样式 **********************/
+header{
+    height: 33px;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+}
+/* 左边 */
+header .header-left{
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    width: 270px;
+}
+header .header-left span{
+    font-size: 13px;
+    vertical-align: middle;
+}
+header .header-left span a {
+    margin-left: 8px;
+}
+header .header-left span img{
+    vertical-align: middle;
+}
+header .header-right{
+    float: right;
+    width: 600px;
+    text-align: right;
+    line-height: 33px;
+}
+/* 右边 */
+header .header-right{
+
+}
+header .header-right a{
+    font-weight: bolder;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #555555;
+}
+header .header-right .more-product{
+    background-color: #398bfb;
+    display: inline-block;
+    width: 86px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+/******************* /头部样式 **********************/
