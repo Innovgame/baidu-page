@@ -107,4 +107,57 @@ header .header-right .more-product{
     cursor: pointer;
 }
 /******************* /搜索样式 **********************/
+/******************* list样式 **********************/
+/* 头部样式 */
+#list{
+    width: 893px;
+    height: 600px;
+    border: 1px solid #ebebeb;
+    margin: 0 auto;
+}
+#list .list-head{
+    /* background-color: red; */
+    overflow: hidden;
+    border-bottom: 1px solid #ebebeb;
+}
+#list .list-head .list-head-left{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    /* 去除a链接之间的间隙 */
+    font-size: 0;
+}
+#list .list-head .list-head-left a{
+    /* background-color: red; */
+    text-decoration: none;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    /* 去除a链接之间的间隙 */
+    font-size: 14px;
+    /* a链接是内联元素 要换成inline-block */
+    display: inline-block;
+    color: #555555;
+}
+#list .list-head .list-head-left a:hover{
+    background-color: #cccccc;
+}
+#list .list-head .list-head-left a img{
+    vertical-align: middle;
+    height: 20px;
+}
+
+#list .list-head .list-head-right{
+    float: right;
+    margin-right: 10px;
+}
+#list .list-head .list-head-right a{
+    line-height: 40px;
+}
+#list .list-head .list-head-right img{ 
+    line-height: 40px;
+    vertical-align: middle;
+}
+/******************* /list样式 **********************/
 
